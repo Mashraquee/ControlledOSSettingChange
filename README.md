@@ -5,9 +5,7 @@
 This project demonstrates how to perform a **controlled OS setting change** (simple, non-invasive) on an EGM-like system.  
 We simulate setting the **timezone** by writing to a configuration file and logging an audit trail.
 
----
 
-## Features
 -  Controlled OS setting change (timezone)
 -  Input validation
 -  Configuration persistence (`config.json`)
@@ -16,6 +14,6 @@ We simulate setting the **timezone** by writing to a configuration file and logg
 
 ---
 
-## Example Command
+ Example Command
 ```bash
 os set-timezone Africa/Conakry
